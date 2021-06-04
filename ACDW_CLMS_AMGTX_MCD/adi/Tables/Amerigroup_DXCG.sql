@@ -1,0 +1,27 @@
+﻿CREATE TABLE [adi].[Amerigroup_DXCG] (
+    [Amerigroup_DXCGKey]                                      INT            NOT NULL,
+    [OriginalFileName]                                        VARCHAR (100)  NOT NULL,
+    [SrcFileName]                                             VARCHAR (100)  NOT NULL,
+    [LoadDate]                                                DATE           NOT NULL,
+    [CreatedDate]                                             DATE           NOT NULL,
+    [DataDate]                                                DATE           NOT NULL,
+    [FileDate]                                                DATE           NOT NULL,
+    [CreatedBy]                                               VARCHAR (50)   NOT NULL,
+    [LastUpdatedDate]                                         DATETIME       NOT NULL,
+    [LastUpdatedBy]                                           VARCHAR (50)   NOT NULL,
+    [MasterConsumerID]                                        BIGINT         NULL,
+    [EncounterMedicalModels_UnweightedRetrospectiveRiskScore] DECIMAL (6, 3) NULL,
+    [EncounterMedicalModels_UnweightedProspectiveRiskScore]   DECIMAL (6, 3) NULL,
+    [EncounterMedicalModels_WeightedRetrospectiveRiskScore]   DECIMAL (6, 3) NULL,
+    [EncounterMedicalModels_WeightedprospectiveRiskScore]     DECIMAL (6, 3) NULL,
+    [RX_IP_UnweightedRetrospectiveRiskScore]                  DECIMAL (6, 3) NULL,
+    [RX_IP_UnweightedProspectiveRiskScore]                    DECIMAL (6, 3) NULL,
+    [RX_IP_WeightedRetrospectiveRiskScore]                    DECIMAL (6, 3) NULL,
+    [RX_IP_WeightedProspectiveRiskScore]                      DECIMAL (6, 3) NULL,
+    [MedicalPharmacy_WeightedRetrospectiveRiskScore]          DECIMAL (6, 3) NULL,
+    [MedicalPharmacy_WeightedProspectiveRiskScore]            DECIMAL (6, 3) NULL,
+    [MemberKey]                                               VARCHAR (32)   NULL,
+    [PG_ID]                                                   VARCHAR (32)   NULL,
+    [PG_NAME]                                                 VARCHAR (100)  NULL
+);
+
